@@ -14,12 +14,10 @@ function About({}: Props) {
 
         <motion.img 
             initial={{
-                x:-200,
+                x: -200,
                 opacity:0
             }}
-            animate={{
-                x:0
-            }}
+            
             transition={{
                 duration: 1.2
             }}
