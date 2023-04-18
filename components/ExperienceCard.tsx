@@ -33,8 +33,9 @@ export default function ExperienceCard({ image , title , date , technologies , c
                 <p className='text-2xl font-bold mt-1' >{ company }</p>
                 <div className='flex space-x-2 my-2' >
                     {
-                        technologies.map(tech => (
+                        technologies.map((tech,i) => (
                             <img 
+                                key={i}
                                 className='h-10 w-10 rounded-full'    
                                 src={ tech } alt="" />
                         ))
@@ -46,8 +47,8 @@ export default function ExperienceCard({ image , title , date , technologies , c
 
                 <ul className='list-disc space-y-4 ml-5 text-lg' >
                     {
-                        description.map(desc => (
-                            <li className='text-gray-300' >{ desc }</li>
+                        description.map((desc, i) => (
+                            <li key={i} className='text-gray-300' >{ desc }</li>
                         ))
 
                     }
