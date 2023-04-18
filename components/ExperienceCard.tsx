@@ -1,52 +1,60 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
-type Props = {}
+type Props = {
+    image : string,
+    title : string,
+    company : string,
+    technologies : string[],
+    date : string,
+    description : string[],
+    link : string
+}
 
-export default function ExperienceCard({}: Props) {
+export default function ExperienceCard({ image , title , date , technologies , company , description , link}: Props) {
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 opacity-40 hover:opacity-100 cursor-pointer transition-opacity overflow-hidden duration-200' >
-        <motion.img 
-            initial={{
-                y:-100,
-                opacity:0
-            }}
-            transition={{ duration:1.2 }}
-            whileInView={{ opacity: 1 , y: 0 }}
-            viewport={{ once: true }}
-            className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center' 
-            src="https://cdn.sanity.io/images/ltuexkre/production/050ee674d199aa8d254af2b5ea480d3dc320cbb1-1240x1440.png" alt="" />
+    <a href={link} target='_blank' >
+    
+        <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 opacity-40 hover:opacity-100 cursor-pointer transition-opacity overflow-hidden duration-200' >
+            <motion.img 
+                initial={{
+                    y:-100,
+                    opacity:0
+                }}
+                transition={{ duration:1.2 }}
+                whileInView={{ opacity: 1 , y: 0 }}
+                viewport={{ once: true }}
+                className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center' 
+                src={ image } alt="" />
 
-        <div className='px-0 md:px-10' >
-            <h4 className='text-4xl font-light' >CEO of PAPAFAM</h4>
-            <p className='text-2xl font-bold mt-1' >PAPAFAM</p>
-            <div className='flex space-x-2 my-2' >
-                <img 
-                    className='h-10 w-10 rounded-full'    
-                    src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png" alt="" />
-                <img 
-                    className='h-10 w-10 rounded-full'    
-                    src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png" alt="" />
-                <img 
-                    className='h-10 w-10 rounded-full'    
-                    src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png" alt="" />
-                <img 
-                    className='h-10 w-10 rounded-full'    
-                    src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png" alt="" />
-                {/* Tech used  */}
-                {/* Tech used  */}
-                {/* Tech used  */}
+            <div className='px-0 md:px-10' >
+                <h4 className='text-4xl font-light' >{ title}</h4>
+                <p className='text-2xl font-bold mt-1' >{ company }</p>
+                <div className='flex space-x-2 my-2' >
+                    {
+                        technologies.map(tech => (
+                            <img 
+                                className='h-10 w-10 rounded-full'    
+                                src={ tech } alt="" />
+                        ))
+
+                    }
+
+                </div>
+                <p className='uppercase py-5 text-gray-300' > { date } </p>
+
+                <ul className='list-disc space-y-4 ml-5 text-lg' >
+                    {
+                        description.map(desc => (
+                            <li className='text-gray-300' >{ desc }</li>
+                        ))
+
+                    }
+                
+                </ul>
             </div>
-            <p className='uppercase py-5 text-gray-300' >Started work... - Ended...</p>
-
-            <ul className='list-disc space-y-4 ml-5 text-lg' >
-                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore harum eius, placeat, ab eos aliquam voluptates fugit blanditiis nulla t.</li>
-                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore harum eius, placeat, ab eos aliquam voluptates fugit blanditiis nulla t.</li>
-                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore harum eius, placeat, ab eos aliquam voluptates fugit blanditiis nulla t.</li>
-                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore harum eius, placeat, ab eos aliquam voluptates fugit blanditiis nulla t.</li>
-               
-            </ul>
-        </div>
-    </article>
+        </article>
+    </a>
   )
 }

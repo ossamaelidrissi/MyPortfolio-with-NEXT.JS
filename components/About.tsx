@@ -31,7 +31,38 @@ function About({}: Props) {
         
         <div className='space-y-10 px-0 md:px-10' >
             <h4 className='text-4xl font-semibold' >Here is a <span className='underline decoration-[#F7AB0A]/50' >little</span>  background</h4>
-            <p className='text-base' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam error commodi iste vero! Omnis vel reprehenderit odit laborum sunt animi perferendis, exercitationem harum? Odit laboriosam fugiat autem porro veniam adipisci?</p>
+            <p className='text-base' >
+            A Full stack developer with more than 2+ years of experience of building UI and REST APIs using nextjs framework with MySQL database, component-based frameworks/libraries React.
+
+            <div className='space-y-5 pt-5' >
+                <div className='space-y-2' >
+                    <h4>Programing Languages : </h4>
+                    <ul className='pl-3 list-disc' >
+                        <li>TypeScript</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+
+                <div className = "space-y-2"> 
+                    <h4>Databases : </h4>
+                    <ul className='pl-3 list-disc' >
+                        <li>MySQL</li>
+                        <li>Firebase</li>
+                    </ul>
+                </div>
+
+                <div className = "space-y-2" >
+                    <h4>Tools : </h4>
+                    <ul className='pl-3 list-disc' >
+                        <li>Prisma</li>
+                        <li>Git</li>
+                        <li>Github</li>
+                        <li>Gitlab</li>
+                    </ul>
+                </div>
+            </div>
+        
+            </p>
         </div>
             
     </motion.div>
