@@ -26,41 +26,20 @@ function About({}: Props) {
                 x: 0
             }}
             viewport={{ once : true }}
-            src='/ossama.jpeg'
+            src='/ossama2.png'
             className ="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]" />
         
         <div className='space-y-10 px-0 md:px-10' >
             <h4 className='text-4xl font-semibold' >Here is a <span className='underline decoration-[#F7AB0A]/50' >little</span>  background</h4>
             <p className='text-base' >
-            A Full stack developer with more than 2+ years of experience of building UI and REST APIs using nextjs framework with MySQL database, component-based frameworks/libraries React.
-
-            <div className='space-y-5 pt-5' >
-                <div className='space-y-2' >
-                    <h4>Programing Languages : </h4>
-                    <ul className='pl-3 list-disc' >
-                        <li>TypeScript</li>
-                        <li>Javascript</li>
-                    </ul>
-                </div>
-
-                <div className = "space-y-2"> 
-                    <h4>Databases : </h4>
-                    <ul className='pl-3 list-disc' >
-                        <li>MySQL</li>
-                        <li>Firebase</li>
-                    </ul>
-                </div>
-
-                <div className = "space-y-2" >
-                    <h4>Tools : </h4>
-                    <ul className='pl-3 list-disc' >
-                        <li>Prisma</li>
-                        <li>Git</li>
-                        <li>Github</li>
-                        <li>Gitlab</li>
-                    </ul>
-                </div>
-            </div>
+            Innovative Full Stack Developer With 2+ years of experience in Full Stack Development.
+I help companies to :
+ - Develope web applications and websites by writing clean and efficient code that meets project
+ requirements.
+ - Troubleshooting and debugging issues in existing code.
+ - Participating in code reviews to ensure code quality and consistency.
+ - Staying up-to-date with emerging trends and technologies in web development.
+👁️ If you are looking for a dedicated, hard-working Full-Stack developer who is passionate about creating quality websites, 𝙥𝙡𝙚𝙖𝙨𝙚 𝙘𝙤𝙣𝙩𝙖𝙘𝙩 𝙢𝙚 𝙖𝙩 elidrissiossama31@𝙜𝙢𝙖𝙞𝙡.𝙘𝙤𝙢 📧.
         
             </p>
         </div>

@@ -34,7 +34,7 @@ export default function Projects({}: Props) {
                       once: true
                     }}
                     src={ project.imgae } alt=""
-                    className="cursor-pointer" />
+                    className="cursor-pointer max-h-96" />
                     
                 <div className='space-y-10 px-0 md:px-10 max-w-6xl' >
                   <h4 className='text-4xl font-semibold text-center' >

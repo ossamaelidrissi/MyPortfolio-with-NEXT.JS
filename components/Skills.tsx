@@ -17,7 +17,7 @@ export default function Skills({}: Props) {
 
         <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm' >Hover over a skill for currency proficiency</h3>
 
-        <div className='grid grid-cols-4 gap-5 xl:pt-28' >
+        <div className='grid grid-cols-3 gap-5 xl:pt-28' >
           {
             skills.map((skill, index) => (
               <Skill key={index} {...skill} />

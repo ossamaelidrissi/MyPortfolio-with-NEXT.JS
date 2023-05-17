@@ -33,7 +33,7 @@ export default function ContactMe({}: Props) {
             <div className='space-y-10' >
                 <div className='flex items-center space-x-5 justify-center ' >
                     <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-                    <p className='text-2xl' >+1234456789</p>
+                    <p className='text-2xl' >+21 27 06 88 37 91</p>
                 </div>
 
                 <div className='flex items-center space-x-5 justify-center ' >
@@ -43,7 +43,7 @@ export default function ContactMe({}: Props) {
 
                 <div className='flex items-center space-x-5 justify-center ' >
                     <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-                    <p className='text-2xl' >123 Developer lane</p>
+                    <p className='text-2xl' >Allal EL Fassi, Marrakech</p>
                 </div>
             </div>
 
