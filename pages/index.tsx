@@ -10,7 +10,6 @@ import Projects from '@/components/Projects';
 import ContactMe from '@/components/ContactMe';
 import Link from 'next/link';
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (

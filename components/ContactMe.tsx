@@ -38,12 +38,12 @@ export default function ContactMe({}: Props) {
 
                 <div className='flex items-center space-x-5 justify-center ' >
                     <EnvelopeIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-                    <p className='text-2xl' >elidrissiossama31@gmail.com</p>
+                    <p className='text-2xl' >ossama@botlator.com</p>
                 </div>
 
                 <div className='flex items-center space-x-5 justify-center ' >
                     <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-                    <p className='text-2xl' >Allal EL Fassi, Marrakech</p>
+                    <p className='text-2xl' >Marrakech , Morocco</p>
                 </div>
             </div>
 

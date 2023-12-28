@@ -30,11 +30,9 @@ export const Header = (props: Props) => {
             {
                 socialIcons.map(icon => (
                     <SocialIcon key={icon.id} url={icon.link} fgColor='gray' bgColor='transparent' />
-                    ))
-                }
+                ))
+            }
 
-                <SocialIcon url='https://www.linkedin.com/in/ossama-el-idrissi-a19111215/' fgColor='gray' bgColor='transparent' />
-                {/* <SocialIcon key={icon.id} url={icon.link} fgColor='gray' bgColor='transparent' /> */}
         </motion.div>
 
         <Link href='#contact' >

@@ -1,11 +1,33 @@
 export const experience = [
     {
        id : 1,
+       image : 'https://media.licdn.com/dms/image/C4E0BAQG4wrelc7gtTw/company-logo_200_200/0/1674118944631?e=2147483647&v=beta&t=Tws2I-R8zbDbx_Wub1D5hECa2PPkD9YnjsbqC2vInHI',
+       title : 'Full Stack Developer',
+       company : 'Safe Labs',
+       link : 'https://safelabs.agency/',
+       date : '06/2023 - present',
+       technologies : [
+        'https://cdn.sanity.io/images/ltuexkre/production/19a30950e8bb4ce1c2155bde79a02626202b173c-500x500.png',
+        'https://cdn.iconscout.com/icon/free/png-256/free-flutter-2038877-1720090.png',
+        'https://blog.octo.com/wp-content/uploads/2015/12/react-logo-1000-transparent.png',
+        'https://cdn.sanity.io/images/ltuexkre/production/fa5e6eeb3377a1601e181d0eeb9a60633090cff2-500x500.png',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/800px-PHP-logo.svg.png',
+        'https://dt-cdn.net/wp-content/uploads/2021/07/13429_ILL_DevOpsLoop.png',
+       ],
+       description : [
+        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore harum eius, placeat, ab eos aliquam voluptates fugit blanditiis nulla t.',
+        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore harum eius, placeat, ab eos aliquam voluptates fugit blanditiis nulla t.',
+        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore harum eius, placeat, ab eos aliquam voluptates fugit blanditiis nulla t.',
+        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore harum eius, placeat, ab eos aliquam voluptates fugit blanditiis nulla t.',
+       ]
+    },
+    {
+       id : 2,
        image : '/allproit.jpeg',
        title : 'Full Stack Developer',
        company : 'All PRO IT',
        link : 'http://medsoft.top/',
-       date : '01/2023 - 05/2023',
+       date : '01/2023 - 06/2023',
        technologies : [
         'https://cdn.sanity.io/images/ltuexkre/production/19a30950e8bb4ce1c2155bde79a02626202b173c-500x500.png',
         'https://vuejs.org/images/logo.png',
@@ -22,10 +44,10 @@ export const experience = [
        ]
     },
     {
-       id : 2,
+       id : 3,
        image : 'https://media.licdn.com/dms/image/C4E0BAQEauKi31lVpmg/company-logo_200_200/0/1640785222347?e=1689811200&v=beta&t=ncEKzs1ZVIe2mvNiSa9mIrcKOCtmRVG-3AYCUikFFoY',
        title : 'Full Stack Developer',
-       company : 'IC NEO SOLUTIONS',
+       company : 'ICS NEO SOLUTIONS',
        link : 'https://icreativesolution.net/',
        date : '07 / 2022 - 12 / 2022',
        technologies : [
@@ -44,7 +66,7 @@ export const experience = [
        ]
     },
     {
-       id : 3,
+       id : 4,
        image : 'codata.jpeg',
        title : 'Full Stack Developer',
        company : 'Codata agency',
@@ -67,7 +89,7 @@ export const experience = [
        ]
     },
     {
-       id : 4,
+       id : 5,
        image : 'https://media.licdn.com/dms/image/C4E0BAQGWIA703iDQRA/company-logo_200_200/0/1519882160421?e=1689811200&v=beta&t=I0mzX2tDWhtFoAuArOdjOJfknOHRVOlQ_rCw3ElB-j4',
        title : 'Full Stack Developer',
        company : 'Hello World',
@@ -77,13 +99,10 @@ export const experience = [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/800px-PHP-logo.svg.png',
        ],
        description : [
-        
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore harum eius, placeat, ab eos aliquam voluptates fugit blanditiis nulla t.',
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore harum eius, placeat, ab eos aliquam voluptates fugit blanditiis nulla t.',
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore harum eius, placeat, ab eos aliquam voluptates fugit blanditiis nulla t.',
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore harum eius, placeat, ab eos aliquam voluptates fugit blanditiis nulla t.',
-            
-        
        ]
     }
 ];
@@ -141,17 +160,73 @@ export const skills = [
 export const projects = [
     {
         id : 1,
-        imgae : '/botlator.png',
-        title : 'Botlator',
+        imgae : '/logo.png',
+        title : 'Botlator.com',
         href : 'https://botlator.com',
-        description : "Data and indicators indicate that most of those who practice e-commerce in the world lose millions of dollars because of unprofitable products, but this problem is no longer an issue now with Botlator, where you can simulate your products and discover whether they are profitable or not! On the other hand, you can create Botlator's accounts and sell them to your customers with 100% profit. You can modify all your account settings, including the logo, name, website name, domain name , SMTP , and all links to videos and contacts"
+        description : "Botlator is a tool that predicts the performance that you can expect if you update your products' prices. Using Botlator can help you price your products more effectively."
+    },
+    {
+        id : 11,
+        imgae : '/geniiflow.png',
+        title : 'Genii Flow',
+        href : 'https://geniiflow.com',
+        description : "Botlator is a tool that predicts the performance that you can expect if you update your products' prices. Using Botlator can help you price your products more effectively."
+    },
+    {
+        id : 12,
+        imgae : '/buzzxflow.png',
+        title : 'Buzz X Flow',
+        href : 'https://buzzxflow.com',
+        description : "Botlator is a tool that predicts the performance that you can expect if you update your products' prices. Using Botlator can help you price your products more effectively."
+    },
+    {
+        id : 13,
+        imgae : '/grandioses.webp',
+        title : 'Grandioses Mobile',
+        href : 'https://play.google.com/store/apps/details?id=com.grandioses.app',
+        description : "Botlator is a tool that predicts the performance that you can expect if you update your products' prices. Using Botlator can help you price your products more effectively."
+    },
+    {
+        id : 14,
+        imgae : '/whatsapp.jpeg',
+        title : 'Whatsapp Ultimate',
+        href : 'https://whatsultimate.com',
+        description : "Botlator is a tool that predicts the performance that you can expect if you update your products' prices. Using Botlator can help you price your products more effectively."
+    },
+    {
+        id : 15,
+        imgae : '/safecrm.png',
+        title : 'Safe CRM',
+        href : 'https://safe-crm.com',
+        description : "Botlator is a tool that predicts the performance that you can expect if you update your products' prices. Using Botlator can help you price your products more effectively."
     },
     {
         id : 2,
         imgae : '/2.png',
-        title : 'Codata Agency',
+        title : 'Codata-agency.com',
         href : 'https://codata-agency.com',
         description : 'Netflix 2.0 app that has a Log In and Log Out Authentication with Google. It has a beautiful Home Screen with all the movies looking just like Netflix. There is also a subscription page where you can see your active monthly subscription. We also use Stripe Payments for the monthly Netflix Subscriptions!        '
+    },
+    {
+        id : 11,
+        imgae : 'https://lou-pescadou.fr/assets/logo-533e3204.png',
+        title : 'Lou-Pescadou.fr',
+        href : 'https://lou-pescadou.fr',
+        description : 'Associated with SafeLabs Agency , we create this project . Lou-pescadou.fr is an ecommerce website that provides customers with a variety of products and services '
+    },
+    // {
+    //     id : 10,
+    //     imgae : '/3.png',
+    //     title : 'Grandioses (Mobile App)',
+    //     href : 'https://lou-pescadou.fr',
+    //     description : 'Netflix 2.0 app that has a Log In and Log Out Authentication with Spotify. It has a beautiful Home Screen with all the movies looking just like Netflix. There is also a subscription page where you can see your active monthly subscription. We also use Stripe Payments for the monthly Netflix Subscriptions!        '
+    // },
+    {
+        id : 9,
+        imgae : '/1.png',
+        title : 'RealEstate Frontend',
+        href : 'https://realestate.ossamaelidrissi.com',
+        description : 'Yes, this is a Google clone and not the real Google webpage. You can search and find several results in milliseconds with this clone. It is faster than Google itself as this clone uses Next.js with Server Side Rendering!'
     },
     {
         id : 3,
@@ -195,11 +270,5 @@ export const projects = [
         href : 'https://hulu.ossamaelidrissi.com',
         description : 'Yes, this is a Google clone and not the real Google webpage. You can search and find several results in milliseconds with this clone. It is faster than Google itself as this clone uses Next.js with Server Side Rendering!'
     },
-    {
-        id : 9,
-        imgae : '/1.png',
-        title : 'RealEstate Frontend',
-        href : 'https://realestate.ossamaelidrissi.com',
-        description : 'Yes, this is a Google clone and not the real Google webpage. You can search and find several results in milliseconds with this clone. It is faster than Google itself as this clone uses Next.js with Server Side Rendering!'
-    },
+
 ]

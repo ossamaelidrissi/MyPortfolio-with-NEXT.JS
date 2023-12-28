@@ -1,7 +1,7 @@
 export const socialIcons = [
     {
         id : 1,
-        link : "https://www.linkedin.com/in/ossama-el-idrissi-a19111215/",
+        link : "https://www.linkedin.com/in/ossamaelidrissi/",
     },
     {
         id : 2,
@@ -14,9 +14,5 @@ export const socialIcons = [
     {
         id : 4,
         link : "https://instagram.com/ossaaaamaa",
-    },
-    {
-        id : 5,
-        link : "https://codata-agency.com/",
     },
 ]
