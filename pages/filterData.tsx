@@ -1,7 +1,7 @@
 import Item from '@/components/Item';
 import React, { useEffect, useMemo, useState } from 'react'
 
-export default function filterData() {
+export default function FilterData() {
 
     const [sportList, setSportList] = useState<any>([]);
 
@@ -78,7 +78,7 @@ export default function filterData() {
                     <div className='text-white flex items-center space-x-2' >
                         {
                             categories.map(category => (
-                                <button className={`${ selectedCategory == category && 'bg-red-500' } rounded py-1 px-2 duration-300`} onClick={() => handleCategoriesBtns(category)}>{category}</button>
+                                <button key={category} className={`${ selectedCategory == category && 'bg-red-500' } rounded py-1 px-2 duration-300`} onClick={() => handleCategoriesBtns(category)}>{category}</button>
                             ))
                         }
                     </div>
